@@ -104,6 +104,13 @@ array-unique@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/array-unique/-/array-unique-0.2.1.tgz#a1d97ccafcbc2625cc70fadceb36a50c58b01a53"
 
+assert-err@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/assert-err/-/assert-err-1.1.0.tgz#c05062799a1d97d3f5eaa258e3242aab499fc8ef"
+  dependencies:
+    escape-string-regexp "^1.0.5"
+    object-assign "^4.1.0"
+
 async-each@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/async-each/-/async-each-1.0.1.tgz#19d386a1d9edc6e7c1c85d388aedbcc56d33602d"
@@ -821,7 +828,7 @@ escape-html@~1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
 
-escape-string-regexp@^1.0.2:
+escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
@@ -1004,6 +1011,12 @@ globals@^9.18.0:
 graceful-fs@^4.1.2, graceful-fs@^4.1.4:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
+
+graphql-date@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/graphql-date/-/graphql-date-1.0.3.tgz#31ce05ae40ed8c8ceb040364060109771e712e91"
+  dependencies:
+    assert-err "^1.0.0"
 
 graphql-extensions@^0.0.x, graphql-extensions@~0.0.9:
   version "0.0.10"
